@@ -168,9 +168,6 @@
 }
 
 /* top corner title */
-.wordmarkWindows-2dq6rw svg {
-	display: none;
-}
 .wordmarkWindows-2dq6rw::after {
 	content: 'Discord';
 	text-shadow: none;
@@ -184,43 +181,6 @@
 	font-weight: 600;
 	color: var(--accent-color);
 }
-
-/*
-/* window controls */
-.withFrame-2dL45i {
-	height: 20px;
-}
-.typeWindows-2-g3UY .winButton-3UMjdg > svg {
-	display: none;
-}
-.typeWindows-2-g3UY .winButton-3UMjdg {
-	top: 0;
-	width: 12px;
-	height: 12px;
-	margin: 2px 12px 0px 0px;
-	border-radius: 12px;
-}
-.typeWindows-2-g3UY .winButton-3UMjdg::after {
-	content: '';
-	height: 12px;
-	width: 12px;
-	border-radius: 12px;
-	transition: 0.1s;
-}
-.typeWindows-2-g3UY .winButtonClose-3Q8ZH5::after {
-	background-color: hsl(0, 50%, 50%) !important;
-}
-.typeWindows-2-g3UY .winButtonMinMax-3RsPUg:nth-child(3)::after {
-	background-color: hsl(120, 50%, 50%) !important;
-}
-.typeWindows-2-g3UY .winButtonMinMax-3RsPUg:nth-child(4)::after {
-	background-color: hsl(50, 50%, 50%) !important;
-}
-.typeWindows-2-g3UY > div:hover::after {
-	transform: scale(1.1);
-}
-
-*/
 
 /* base color variables */
 .theme-dark {
@@ -604,47 +564,10 @@
 	visibility: hidden;
 }
 
-/*
-/* window controls */
-.withFrame-2dL45i {
-	height: 20px;
-}
-.typeWindows-2-g3UY .winButton-3UMjdg > svg {
-	display: none;
-}
-.typeWindows-2-g3UY .winButton-3UMjdg {
-	top: 0;
-	width: 12px;
-	height: 12px;
-	margin: 2px 12px 0px 0px;
-	border-radius: 12px;
-}
-.typeWindows-2-g3UY .winButton-3UMjdg::after {
-	content: '';
-	height: 12px;
-	width: 12px;
-	border-radius: 12px;
-	transition: 0.1s;
-}
-.typeWindows-2-g3UY .winButtonClose-3Q8ZH5::after {
-	background-color: hsl(0, 50%, 50%) !important;
-}
-.typeWindows-2-g3UY .winButtonMinMax-3RsPUg:nth-child(3)::after {
-	background-color: hsl(120, 50%, 50%) !important;
-}
-.typeWindows-2-g3UY .winButtonMinMax-3RsPUg:nth-child(4)::after {
-	background-color: hsl(50, 50%, 50%) !important;
-}
-.typeWindows-2-g3UY > div:hover::after {
-	transform: scale(1.1);
-}
 
 /* top corner title */
-.wordmarkWindows-2dq6rw svg {
-	display: none;
-}
 .wordmarkWindows-2dq6rw::after {
-	content: 'Midnight';
+	content: 'Discord';
 	display: block;
 	position: relative;
 	width: 200px;
@@ -653,6 +576,6 @@
 	font-family: var(--font-headline);
 	font-size: 11px;
 	font-weight: 600;
-	color: var(--muted-text);
+	color: var(--accent-color);
 }
-*/
+

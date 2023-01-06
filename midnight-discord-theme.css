@@ -33,7 +33,7 @@
 }
 .mentioned-Tre-dv:before, /* mention message left bar */
 .colorDefault-CDqZdO.focused-3qFvc8 /* message menu hover */ {
-	background-color: var(--brand-new-500);
+	background-color: var(--accent-color);
 }
 .numberBadge-37OJ3S /* mention number badge */ {
 	background-color: var(--status-danger) !important;

@@ -11,9 +11,11 @@
 .searchBar-3aIzc-, /* gif panel search bar */
 .container-1SX9VC, /* emoji/sticker panel search bar */ 
 .expandedFolderBackground-1kSAf6, /* folder expanded */
+/*
 .callContainer-HtHELf /* voice channel background */ {
 	background-color: var(--primary-dark-600);
 }
+*/
 .folderIconWrapper-1oRIZr /* folder closed */ {
 	background-color: var(--primary-dark-600) !important;
 }

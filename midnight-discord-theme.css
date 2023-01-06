@@ -172,7 +172,8 @@
 	display: none;
 }
 .wordmarkWindows-2dq6rw::after {
-	content: 'Midnight';
+	content: 'Discord';
+	text-shadow: none;
 	display: block;
 	position: relative;
 	width: 200px;
@@ -181,9 +182,10 @@
 	font-family: var(--font-headline);
 	font-size: 11px;
 	font-weight: 600;
-	color: var(--primary-dark-330);
+	color: var(--accent-color);
 }
 
+/*
 /* window controls */
 .withFrame-2dL45i {
 	height: 20px;
@@ -218,7 +220,7 @@
 	transform: scale(1.1);
 }
 
-
+*/
 
 /* base color variables */
 .theme-dark {
@@ -602,6 +604,7 @@
 	visibility: hidden;
 }
 
+/*
 /* window controls */
 .withFrame-2dL45i {
 	height: 20px;
@@ -652,3 +655,4 @@
 	font-weight: 600;
 	color: var(--muted-text);
 }
+*/

@@ -38,9 +38,12 @@
 .numberBadge-37OJ3S /* mention number badge */ {
 	background-color: var(--status-danger) !important;
 }
+
+/* grey discord server navigator icon when selected
 .wrapper-3kah-n.selected-1Drb7Z .childWrapper-1j_1ub, .wrapper-3kah-n:hover .childWrapper-1j_1ub /* selected/hovered server icon */ {
 	background-color: var(--text-muted);
 }
+*/
 
 /* add rounded corners */
 .container-3XgAHv, /* new thread */

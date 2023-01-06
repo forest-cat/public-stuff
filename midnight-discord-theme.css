@@ -36,7 +36,7 @@
 	background-color: var(--brand-new-500);
 }
 .numberBadge-37OJ3S /* mention number badge */ {
-	background-color: var(--brand-new-560) !important;
+	background-color: var(--status-danger) !important;
 }
 .wrapper-3kah-n.selected-1Drb7Z .childWrapper-1j_1ub, .wrapper-3kah-n:hover .childWrapper-1j_1ub /* selected/hovered server icon */ {
 	background-color: var(--text-muted);

@@ -430,3 +430,217 @@
 	font-weight: 600;
 	color: var(--muted-text);
 }
+
+/* change colors */
+.scroller-WSmht3, /*  dm list */
+.privateChannels-oVe7HL, /* top of dm list */
+.panels-3wFtMD, /* user panel with mute button */
+.container-1NXEtd, /* channel list */
+.membersWrap-3NUR2t, /* members list */
+.searchResultsWrap-5RVOkx, /* search results */
+.searchHeader-1r_ZSh, /* search results header */
+.channelName-3w2Y3c, /* search result channel name */ 
+.searchBar-3aIzc-, /* gif panel search bar */
+.container-1SX9VC, /* emoji/sticker panel search bar */ 
+.expandedFolderBackground-1kSAf6, /* folder expanded */
+.callContainer-HtHELf /* voice channel background */ {
+	background-color: var(--primary-dark-600);
+}
+.folderIconWrapper-1oRIZr /* folder closed */ {
+	background-color: var(--primary-dark-600) !important;
+}
+.searchResult-O9NDji {
+	background-color: var(--primary-dark-630);
+}
+.container-2o3qEW, /* members list background (servers only) */
+.members-3WRCEx, /* members list foreground */  
+.member-48YF_l, /* members list members */
+.sidebar-1tnWFu, /* channel list back */
+.gradientBottom-uB_-4E, /* voice channel top gradient */
+.gradientTop-1UBZHm /* voice channel bottom gradient */ {
+	background: none;
+}
+.expandedFolderIconWrapper-3RwQpD svg /* expanded folder icon */ {
+	color: var(--brand-new-560) !important;
+}
+.mentioned-Tre-dv:before, /* mention message left bar */
+.colorDefault-CDqZdO.focused-3qFvc8 /* message menu hover */ {
+	background-color: var(--brand-new-500);
+}
+.numberBadge-37OJ3S /* mention number badge */ {
+	background-color: var(--brand-new-560) !important;
+}
+.wrapper-3kah-n.selected-1Drb7Z .childWrapper-1j_1ub, .wrapper-3kah-n:hover .childWrapper-1j_1ub /* selected/hovered server icon */ {
+	background-color: var(--text-muted);
+}
+
+/* add rounded corners */
+.container-3XgAHv, /* new thread */
+.callContainer-HtHELf, /* voice channel */
+.applicationStore-2nk7Lo /* nitro page */ {
+	border-radius: 10px !important;
+}
+.chatContent-3KubbW, /* main chat */
+.membersWrap-3NUR2t,  /* member list */
+.searchResultsWrap-5RVOkx, /* search results */
+.panels-3wFtMD /* user panel with mute button */ {
+	border-radius: 0px 0px 10px 10px;
+}
+.privateChannels-oVe7HL, /* friends list */
+.container-1NXEtd, /* channel list */ 
+.chatContent-3KubbW::before, /* top of main chat */
+.membersWrap-3NUR2t::before, /* top of member list */
+.searchResultsWrap-5RVOkx::before, /* top of search results */ 
+.wrapper-1gVUIN /* private call */ {
+	border-radius: 10px 10px 0px 0px;
+}
+
+/* remove big chat background and add back smaller */
+.chat-2ZfjoI {
+	background: none !important;
+}
+.chatContent-3KubbW {
+	background-color: var(--primary-dark-600) !important;
+}
+
+/* remove chat header background */
+.title-31SJ6t {
+	background: none !important;
+}
+
+/* add header backgrounds */
+.membersWrap-3NUR2t::before, /* member list */
+.chatContent-3KubbW::before, /* main chat */
+.searchResultsWrap-5RVOkx::before /* search results */ {
+	content: '';
+	position: absolute;
+	margin-top: -48px;
+	background-color: var(--primary-dark-600);
+	width: 100%;
+	height: 48px;
+}
+.searchResultsWrap-5RVOkx /* show header on search results */ {
+	overflow: visible;
+}
+
+/* fix members list height */
+.membersWrap-3NUR2t {
+	height: 100%;
+}
+
+/* rearrange toolbar */
+.iconWrapper-2awDjA[aria-label='Help'] {
+	display: none;
+}
+.iconWrapper-2awDjA[aria-label*='Member List'] {
+	order: 1;
+}
+.search-39IXmY {
+	order: 1;
+	margin-left: 30px;
+}
+.searchBar-jGtisZ {
+	width: 208px !important;
+	padding: 0px 2px;
+}
+.searchResultsWrap-5RVOkx {
+	width: 470px;
+}
+
+/* add margins */
+.base-2jDfDU /* outside edges */ {
+	padding: 0px 10px 10px 0;
+}
+.container-2cd8Mz, /* friend list*/
+.chat-2ZfjoI, /* main chat */
+.applicationStore-2nk7Lo /* nitro page */ {
+	margin-left: 10px;
+}
+.content-1jQy2l /* between chat and member list */ {
+	gap: 10px;
+}
+.resizeHandle-PBRzPC /* pretend to be a margin */ {
+	width: 10px;
+}
+
+/* remove shadows */
+.content-1jQy2l::before /* main chat header */, 
+.tabBody-2dgbAs::before, /* friend list header */
+.chat-1-OBC7::before, /* voice channel chat header */ 
+.headerBar-1dSpQr:before, /* nitro page header */
+.searchBar-3TnChZ, /* dm list header */
+.header-3OsQeK, /* channel list header */ 
+.header-uVCAlo, /* sticker panel header */
+.header-2TLOnc, /* gif panel header */ 
+.header-11eigE /* emoji panel header */ {
+	box-shadow: none !important;
+}
+/*.children-3xh0VB:after  toolbar shadow  {
+	background: none !important;
+}*/
+
+/* remove borders */
+.itemCard-3Etziu /* active now card */ {
+	border: none;
+}
+
+/* only show scrollbar when hover */
+.scrollerBase-_bVAAt:hover::-webkit-scrollbar-thumb,
+.scrollerBase-_bVAAt:hover::-webkit-scrollbar-track {
+	visibility: visible;
+}
+.scrollerBase-_bVAAt::-webkit-scrollbar-thumb,
+.scrollerBase-_bVAAt::-webkit-scrollbar-track {
+	visibility: hidden;
+}
+
+/* top corner title */
+.wordmarkWindows-2dq6rw svg {
+	display: none;
+}
+.wordmarkWindows-2dq6rw::after {
+	content: 'Midnight';
+	display: block;
+	position: relative;
+	width: 200px;
+	height: 16px;
+	line-height: 16px;
+	font-family: var(--font-headline);
+	font-size: 11px;
+	font-weight: 600;
+	color: var(--primary-dark-330);
+}
+
+/* window controls */
+.withFrame-2dL45i {
+	height: 20px;
+}
+.typeWindows-2-g3UY .winButton-3UMjdg > svg {
+	display: none;
+}
+.typeWindows-2-g3UY .winButton-3UMjdg {
+	top: 0;
+	width: 12px;
+	height: 12px;
+	margin: 2px 12px 0px 0px;
+	border-radius: 12px;
+}
+.typeWindows-2-g3UY .winButton-3UMjdg::after {
+	content: '';
+	height: 12px;
+	width: 12px;
+	border-radius: 12px;
+	transition: 0.1s;
+}
+.typeWindows-2-g3UY .winButtonClose-3Q8ZH5::after {
+	background-color: hsl(0, 50%, 50%) !important;
+}
+.typeWindows-2-g3UY .winButtonMinMax-3RsPUg:nth-child(3)::after {
+	background-color: hsl(120, 50%, 50%) !important;
+}
+.typeWindows-2-g3UY .winButtonMinMax-3RsPUg:nth-child(4)::after {
+	background-color: hsl(50, 50%, 50%) !important;
+}
+.typeWindows-2-g3UY > div:hover::after {
+	transform: scale(1.1);
+}

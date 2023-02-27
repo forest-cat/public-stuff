@@ -41,11 +41,11 @@
 	background-color: var(--status-danger) !important;
 }
 
-/* grey discord server navigator icon when selected
+/* grey discord server navigator icon when selected */
 .wrapper-3kah-n.selected-1Drb7Z .childWrapper-1j_1ub, .wrapper-3kah-n:hover .childWrapper-1j_1ub /* selected/hovered server icon */ {
 	background-color: var(--text-muted);
 }
-*/
+
 
 /* add rounded corners */
 .container-3XgAHv, /* new thread */
@@ -791,53 +791,3 @@
 	visibility: hidden;
 }
 
-/* top corner title */
-.wordmarkWindows-2dq6rw svg {
-	display: none;
-}
-.wordmarkWindows-2dq6rw::after {
-	content: 'Midnight';
-	display: block;
-	position: relative;
-	width: 200px;
-	height: 16px;
-	line-height: 16px;
-	font-family: var(--font-headline);
-	font-size: 11px;
-	font-weight: 600;
-	color: var(--muted-text);
-}
-
-/* window controls */
-.withFrame-2dL45i {
-	height: 20px;
-}
-.typeWindows-2-g3UY .winButton-3UMjdg > svg {
-	display: none;
-}
-.typeWindows-2-g3UY .winButton-3UMjdg {
-	top: 0;
-	width: 12px;
-	height: 12px;
-	margin: 2px 12px 0px 0px;
-	border-radius: 12px;
-}
-.typeWindows-2-g3UY .winButton-3UMjdg::after {
-	content: '';
-	height: 12px;
-	width: 12px;
-	border-radius: 12px;
-	transition: 0.1s;
-}
-.typeWindows-2-g3UY .winButtonClose-3Q8ZH5::after {
-	background-color: hsl(0, 50%, 50%) !important;
-}
-.typeWindows-2-g3UY .winButtonMinMax-3RsPUg:nth-child(3)::after {
-	background-color: hsl(120, 50%, 50%) !important;
-}
-.typeWindows-2-g3UY .winButtonMinMax-3RsPUg:nth-child(4)::after {
-	background-color: hsl(50, 50%, 50%) !important;
-}
-.typeWindows-2-g3UY > div:hover::after {
-	transform: scale(1.1);
-}

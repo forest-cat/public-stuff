@@ -1,0 +1,205 @@
+/**
+ * @name midnight
+ * @description A darkened discord theme.
+ * @author refact0r
+ * @version 1.4.0
+ * @source https://github.com/refact0r/midnight-discord
+ * @authorId 508863359777505290
+*/
+
+/* @import url('https://refact0r.github.io/midnight-discord/midnight.css'); */
+@import url('https://forest-cat.github.io/public-stuff/midnight-discord-theme.css');
+
+/* change colors here */
+/* a color picker should show up if you hover over the "hsl(x, y, z)" part */
+:root {
+	/* link color */
+	--link-color: hsl(190, 70%, 60%);
+	/* main accent color (mentions, folder icons, unread indicators) */
+	--accent-color: hsl(190, 60%, 50%);
+	/* darker accent color (background of any accent items with text) */
+	--accent-background: hsl(190, 60%, 40%);
+	/* even darker accent color (background of accent buttons when hover) */
+	--accent-background-2: hsl(190, 60%, 30%);
+	/* even darker accent color (background of accent buttons when clicked) */
+	--accent-background-3: hsl(190, 60%, 20%);
+	/* background of mention text and messages that mention you */
+	--mention-modifier: hsla(190, 60%, 50%, 0.1);
+	/* background of messages that mention you on hover */
+	--mention-hover-modifier: hsla(190, 60%, 50%, 0.05);
+	/* bright text for colored buttons */
+	--bright-text: hsl(220, 40%, 90%);
+	/* header text for headers and certain text */
+	--header-text: hsl(220, 30%, 70%);
+	/* main text color (messages, titles, unread text/indicators) */
+	--primary-text: hsl(220, 15%, 60%);
+	/* secondary text color (channels, descriptions, buttons) */
+	--secondary-text: hsl(220, 15%, 40%);
+	/* muted text color (input box placeholders, muted channels, message times) */
+	--muted-text: hsl(220, 15%, 24%);
+	/* background of muted colored buttons on hover */
+	--muted-background-hover: hsl(220, 15%, 20%);
+	/* background of muted colored buttons on click */
+	--muted-background-active: hsl(220, 15%, 16%);
+	/* background of pretty much everything not using primary background */
+	--secondary-background: hsl(228, 17%, 6%);
+	/* main chat/channel list/member list background */
+	--primary-background: hsl(228, 17%, 7%);
+	/* overlay background on stuff when hovered over */
+	--hover-modifier: hsl(230, 20%, 40%, 0.1);
+	/* overlay background on stuff when clicked or selected */
+	--active-modifier: hsl(220, 20%, 40%, 0.2);
+	/* overlay background on messages when hovered over */
+	--message-hover-modifier: hsl(220, 0%, 0%, 0.1);
+	/* radius of round corners */
+	--roundness: 16px;
+}
+
+/* voice channel user name when clicked on */
+
+
+.listDefault-2F-w65 .clickable-1ctZ-H.selected-1oxcpH .content-1Tgc42 {
+	text-shadow: 0 0 5px hsl(0, 0%, 100%);
+}
+
+
+
+
+/* Hover text glowing */
+
+.content-1Tgc42 {
+	transition: 0.5s;
+}
+
+.content-1Tgc42:hover {
+	text-shadow: 0 0 3px var(--accent-color);
+	transform: translate(4px, 0px);
+	transition: 0.15s;
+}
+
+/* user in voice channel when speaking */
+.userAvatar-3Hwf1F.avatar-3FKimL.avatarSmall-3qwAkA {
+	transition: 0.3s;
+}
+
+.userAvatar-3Hwf1F.avatar-3FKimL.avatarSmall-3qwAkA.avatarSpeaking-2pCGrZ {
+	box-shadow: 0 0 20px var(--accent-color);
+	box-shadow: inset 0 0 0 2px var(--accent-color), inset 0 0 0 3px hsl(228, 17%, 6%), 0 0 20px var(--accent-color);
+	transition: 0.3s;
+}
+
+.avatarStack-3vfSFa{
+	transition: 0.3s;
+}
+
+.avatarSpeaking-33RRJU {
+	box-shadow: inset 0 0 0 2px var(--accent-color),inset 0 0 0 3px hsl(228, 17%, 6%), 0 0 10px var(--accent-color);
+	transition: 0.3s;
+}
+
+
+.border-2Vy6FN {
+	transition: 0.3s;
+}
+.border-2Vy6FN.speaking-7QZEkv {
+	box-shadow: inset 0 0 0 2px rgb(70, 59, 165),inset 0 0 0 3px hsl(0,0%,0%);
+	box-shadow: inset 0 0 0 2px var(--accent-color),inset 0 0 0 3px hsl(228, 17%, 6%), 0 0 20px var(--accent-color);
+	transition: 0.3s;
+}
+
+/* channels */
+
+.channelName-3KPsGw {
+	color: hsl(266, 25%, 70%);
+	/* text-shadow: 0 0 3px hsl(266, 25%, 70%); */
+	transition: 0.5s;
+}
+
+.channelName-3KPsGw:hover {
+	color: hsl(0, 0%, 100%);
+	text-shadow: 0 0 5px var(--accent-color);
+	transform: translate(4px, 0px);
+	transition: 0.15s;
+}
+
+
+
+.selected-2TbFuo {
+	color: crimson;
+	text-shadow: 0 0 3px var(--accent-color) !important;
+	/* box-shadow: 0px 0px 40px 20px rgba(208, 255, 0, 0.288); */
+	/* background-image: linear-gradient(to right, rgb(0, 0, 0) , rgba(208, 255, 0, 0.288)); */
+}
+
+/* :root {
+	text-shadow: 0 0 1px hsl(266, 25%, 70%);
+} */
+
+/* Discord Logo top left */
+.homeIcon-r0w4ny {
+	width: 35px;
+	height: 25px;
+}
+
+/* Slide Effekt on Folders and Servers (left) */
+.wrapper-38slSD {
+
+	transition: 0.5s;
+}
+.listItem-3SmSlK {
+	transition: 0.5s;
+}
+
+
+.wrapper-38slSD:hover {
+	transform: translate(2px, 0px);
+	transition: 0.15s;
+}
+
+.listItem-3SmSlK:hover:hover {
+	transform: translate(2px, 0px);
+	transition: 0.15s;
+}
+
+/* Excepting the home discord logo (top left) from the animation */
+.tutorialContainer-1pL9QS .listItem-3SmSlK {
+	transition: 0.5s;
+}
+.tutorialContainer-1pL9QS .listItem-3SmSlK:hover {
+	transition: 0.15s;
+	transform: none;
+}
+
+/* Sliding effect for the memberlist (right) */
+.name-3Vmqxm {
+	transition: 0.5s;
+}
+.name-3Vmqxm:hover {
+	transform: translate(4px, 0px) !important;
+	transition: 0.15s;
+}
+
+/* Sliding effect for the dm list (left) */
+.content-66wMin {
+	transition: 0.5s;
+}
+.content-66wMin:hover {
+	transform: translate(4px, 0px) !important;
+	transition: 0.15s;
+}
+
+
+/* Sliding effect in settings menu */
+
+.side-2ur1Qk .item-3XjbnG.themed-2-lozF {
+	transition: 0.5s;
+}
+
+.side-2ur1Qk .item-3XjbnG.themed-2-lozF:hover {
+	transform: translate(4px, 0px) !important;
+	transition: 0.15s;
+}
+
+/* .username-u-ebrn.desaturateUserColors-1O-G89 {
+	font-size: 200%;
+} */

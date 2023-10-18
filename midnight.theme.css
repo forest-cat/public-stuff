@@ -192,6 +192,20 @@
     box-shadow: inset 0 0 0 2px var(--accent-color) !important;
 }
 
+/*streaming, cam, activity buttons left bottom*/
+.buttonActive-1YQBrb {
+    background-color: var(--accent-color) !important;
+}
+/*add friend button on friend list*/
+#app-mount > div.appAsidePanelWrapper-VeklAl > div.notAppAsidePanel-1yXaPq > div.app-1BipOi > div > div.layers-OrUESM.layers-1YQhyW > div > div > div > div > main > section > div > div.children-3xh0VB > div.tabBar-ra-EuL.topPill-2vcLsa > div.item-3mHhwr.addFriend-emTWY1.item-2GWPIy.themed-qqoYp3 {
+    background-color: var(--accent-color);
+}
+
+/*Voice Connected Text bottom left*/
+#app-mount > div.appAsidePanelWrapper-VeklAl > div.notAppAsidePanel-1yXaPq > div.app-1BipOi > div > div.layers-OrUESM.layers-1YQhyW > div > div > div > div > div.sidebar-1tnWFu > section > div.wrapper-VSquwh > div > div.flex-2S1XBF.horizontal-112GEH.justifyStart-2Mwniq.alignCenter-14kD11.noWrap-hBpHBz.connection-3wznVd > div.inner-C_MH0f > div > div > div > button > div {
+    color: var(--accent-color);
+}
+
 
 
 /* Sliding effect in settings menu */

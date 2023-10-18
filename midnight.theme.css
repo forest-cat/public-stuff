@@ -198,7 +198,7 @@
 }
 /*add friend button on friend list*/
 #app-mount > div.appAsidePanelWrapper-VeklAl > div.notAppAsidePanel-1yXaPq > div.app-1BipOi > div > div.layers-OrUESM.layers-1YQhyW > div > div > div > div > main > section > div > div.children-3xh0VB > div.tabBar-ra-EuL.topPill-2vcLsa > div.item-3mHhwr.addFriend-emTWY1.item-2GWPIy.themed-qqoYp3 {
-    background-color: var(--accent-color);
+    background-color: hsl(190, 100%, 29%);
 }
 
 /*Voice Connected Text bottom left*/

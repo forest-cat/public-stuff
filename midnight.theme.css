@@ -150,30 +150,31 @@
 }
 
 /* Slide Effekt on Folders and Servers (left) */
-.wrapper-38slSD {
+.wrapper_ed1dea {
 
 	transition: 0.5s;
 }
-.listItem-3SmSlK {
+.listItem_fa7b36 {
 	transition: 0.5s;
 }
 
-
-.wrapper-38slSD:hover {
+/* whole non collapsed folder slide effect */
+.wrapper_ed1dea:hover {
 	transform: translate(2px, 0px);
 	transition: 0.15s;
 }
 
-.listItem-3SmSlK:hover:hover {
+/* all single list items */
+.listItem_fa7b36:hover:hover {
 	transform: translate(2px, 0px);
 	transition: 0.15s;
 }
 
-/* Excepting the home discord logo (top left) from the animation */
-.tutorialContainer-1pL9QS .listItem-3SmSlK {
+/* Excluding the home discord logo (top left) from the animation */
+.tutorialContainer__890ea .listItem_fa7b36 {
 	transition: 0.5s;
 }
-.tutorialContainer-1pL9QS .listItem-3SmSlK:hover {
+.tutorialContainer__890ea .listItem_fa7b36:hover {
 	transition: 0.15s;
 	transform: none;
 }

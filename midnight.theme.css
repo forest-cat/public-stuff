@@ -250,6 +250,21 @@
     background-color: var(--accent-color);
 }
 
+/* Bar before unread messages */
+.divider__8cf56.isUnread__6f880 {
+    border-color: var(--accent-color);
+}
+
+.isUnread__6f880 > .unreadPill__715fc.endCap__95d53 {
+    background-color: var(--accent-color);
+}
+
+.isUnread__6f880 > .unreadPill__715fc.endCap__95d53 > .unreadPillCap__96b8d > .unreadPillCapStroke__12c0b {
+    color: var(--accent-color);
+    fill: var(--accent-color);
+}
+
+
 /* .username-u-ebrn.desaturateUserColors-1O-G89 {
 	font-size: 200%;
 } */

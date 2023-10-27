@@ -245,6 +245,11 @@
 	transition: 0.15s;
 }
 
+/* Mentioned left colored bar fix */
+.mentioned__58017::before {
+    background-color: var(--accent-color);
+}
+
 /* .username-u-ebrn.desaturateUserColors-1O-G89 {
 	font-size: 200%;
 } */

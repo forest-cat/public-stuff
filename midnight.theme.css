@@ -264,6 +264,16 @@
     fill: var(--accent-color);
 }
 
+/* add server and discover servers buttons left icons */
+.circleIconButton_d8df29 {
+    color: var(--accent-color);
+}
+
+/* add server and discover servers buttons left when hovering */
+.circleIconButton_d8df29.selected__5250e {
+    background-color: var(--accent-color);
+} 
+
 
 /* .username-u-ebrn.desaturateUserColors-1O-G89 {
 	font-size: 200%;

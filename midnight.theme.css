@@ -180,19 +180,29 @@
 }
 
 /* Sliding effect for the memberlist (right) */
-.name-3Vmqxm {
+.memberInner_a32223 {
 	transition: 0.5s;
 }
-.name-3Vmqxm:hover {
+.memberInner_a32223:hover {
 	transform: translate(4px, 0px) !important;
 	transition: 0.15s;
 }
 
 /* Sliding effect for the dm list (left) */
-.content-66wMin {
+.container__8759a {
 	transition: 0.5s;
 }
-.content-66wMin:hover {
+.container__8759a:hover {
+	transform: translate(4px, 0px) !important;
+	transition: 0.15s;
+}
+
+/* Sliding effect for friend list */
+
+.peopleListItem_d14722 {
+    transition: 0.5s;
+}
+.peopleListItem_d14722:hover {
 	transform: translate(4px, 0px) !important;
 	transition: 0.15s;
 }

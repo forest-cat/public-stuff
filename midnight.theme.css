@@ -67,11 +67,11 @@
 
 /* Hover text glowing */
 
-.content-1Tgc42 {
+.name__8d1ec {
 	transition: 0.5s;
 }
 
-.content-1Tgc42:hover {
+.name__8d1ec:hover {
 	text-shadow: 0 0 3px var(--accent-color);
 	transform: translate(4px, 0px);
 	transition: 0.15s;

@@ -78,33 +78,41 @@
 }
 
 /* user in voice channel when speaking */
-.userAvatar-3Hwf1F.avatar-3FKimL.avatarSmall-3qwAkA {
+/* left round avatars in list */
+.userAvatar_c4f005.avatar_a56eee.avatarSmall__7dc81 {
 	transition: 0.3s;
 }
 
-.userAvatar-3Hwf1F.avatar-3FKimL.avatarSmall-3qwAkA.avatarSpeaking-2pCGrZ {
+.userAvatar_c4f005.avatar_a56eee.avatarSmall__7dc81.avatarSpeaking_c95053 {
 	box-shadow: 0 0 20px var(--accent-color);
 	box-shadow: inset 0 0 0 2px var(--accent-color), inset 0 0 0 3px hsl(228, 17%, 6%), 0 0 20px var(--accent-color);
 	transition: 0.3s;
 }
 
-.avatarStack-3vfSFa{
+/* Trying for transition delay on square avatars border */
+.avatarStack__6604a{
 	transition: 0.3s;
 }
 
-.avatarSpeaking-33RRJU {
+/* Corner left bottom speaking cicle */
+.avatarSpeaking__61fb1 {
 	box-shadow: inset 0 0 0 2px var(--accent-color),inset 0 0 0 3px hsl(228, 17%, 6%), 0 0 10px var(--accent-color);
 	transition: 0.3s;
 }
 
-
-.border-2Vy6FN {
+/* when voice channel selected, square avatars */
+.border_d9a17b {
 	transition: 0.3s;
 }
-.border-2Vy6FN.speaking-7QZEkv {
+.border_d9a17b.speaking__9b95a {
 	box-shadow: inset 0 0 0 2px rgb(70, 59, 165),inset 0 0 0 3px hsl(0,0%,0%);
 	box-shadow: inset 0 0 0 2px var(--accent-color),inset 0 0 0 3px hsl(228, 17%, 6%), 0 0 20px var(--accent-color);
 	transition: 0.3s;
+}
+
+/* top right small round avatars */
+.avatarSpeaking_c95053 {
+    box-shadow: inset 0 0 0 2px var(--accent-color),inset 0 0 0 3px var(--background-secondary)
 }
 
 /* channels */
@@ -188,9 +196,6 @@
 	transition: 0.15s;
 }
 
-.avatarSpeaking-36V2PN {
-    box-shadow: inset 0 0 0 2px var(--accent-color) !important;
-}
 
 /*streaming, cam, activity buttons left bottom*/
 .buttonActive-1YQBrb {

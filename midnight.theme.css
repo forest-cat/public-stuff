@@ -67,11 +67,11 @@
 
 /* Hover text glowing */
 
-.name__8d1ec {
+.content_b60865 {
 	transition: 0.5s;
 }
 
-.name__8d1ec:hover {
+.content_b60865:hover {
 	text-shadow: 0 0 3px var(--accent-color);
 	transform: translate(4px, 0px);
 	transition: 0.15s;
@@ -117,13 +117,13 @@
 
 /* channels */
 
-.channelName-3KPsGw {
+.name__8d1ec {
 	color: hsl(266, 25%, 70%);
 	/* text-shadow: 0 0 3px hsl(266, 25%, 70%); */
 	transition: 0.5s;
 }
 
-.channelName-3KPsGw:hover {
+.name__8d1ec:hover {
 	color: hsl(0, 0%, 100%);
 	text-shadow: 0 0 5px var(--accent-color);
 	transform: translate(4px, 0px);

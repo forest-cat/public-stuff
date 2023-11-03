@@ -277,7 +277,7 @@
 /* For new message divider */
 /* Text date mark without unread */
 .content_d67847 {
-    color: var(--accent-color);
+    color: var(--text-muted);
 }
 
 /* Text date mark with unread */

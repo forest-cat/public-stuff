@@ -300,23 +300,6 @@
     background-color: rgb(13, 14, 18);
 }
 
-@keyframes rocket-flying-in {
-    0% {transform: translate(0px, 0px);}
-    20% {transform: translate(5px, 0px);}
-    40% {transform: translate(5px, 5px);}
-    100% {transform: translate(0px, 5px);}   
-}
-
-* {
-    transition: 0.15s;
-}
-
-*:hover {
-    transition: 0.1s;
-    animation: rocket-flying-in 0.1s infinite;
-}
-
-
 /* .username-u-ebrn.desaturateUserColors-1O-G89 {
 	font-size: 200%;
 } */

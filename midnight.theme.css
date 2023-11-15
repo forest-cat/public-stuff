@@ -300,6 +300,17 @@
     background-color: rgb(13, 14, 18);
 }
 
+/* Interested in Event Button color */
+.joinButton_e760b6 {
+    background-color: var(--accent-color)!important;
+}
+
+/* Playing border around sounds in soundboard */
+.playing_ca65b9 {
+    border-color: var(--accent-color) !important;
+	box-shadow: inset 0 0 0 1px var(--accent-color), inset 0 0 0 2px hsl(228, 17%, 6%), 0 0 10px var(--accent-color);
+}
+
 /* .username-u-ebrn.desaturateUserColors-1O-G89 {
 	font-size: 200%;
 } */

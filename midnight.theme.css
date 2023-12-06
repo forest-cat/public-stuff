@@ -311,6 +311,25 @@
 	box-shadow: inset 0 0 0 1px var(--accent-color), inset 0 0 0 2px hsl(228, 17%, 6%), 0 0 10px var(--accent-color);
 }
 
+/* connection state icon in call bottom left */
+.ping__47992 {
+    --status-positive: var(--accent-color);
+}
+
+/* color fix for other random colors from green to blue */
+* {
+    --text-positive: var(--accent-color);
+    --status-positive: var(--accent-color);
+    --info-positive-foreground: var(--accent-color);
+    --info-positive-background: var(--accent-color);
+    --status-positive-background: var(-accent-color);
+    --status-positive-foreground: var(-accent-color);
+
+
+}
+
+
+
 /* .username-u-ebrn.desaturateUserColors-1O-G89 {
 	font-size: 200%;
 } */

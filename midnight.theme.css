@@ -328,7 +328,10 @@
 
 }
 
-
+/* background of users which are in a voice channel while voice channel is selected */
+.background__3b30f {
+    background-color: hsl(240, 14%, 4%) !important;
+}
 
 /* .username-u-ebrn.desaturateUserColors-1O-G89 {
 	font-size: 200%;

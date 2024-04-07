@@ -170,6 +170,8 @@
 .theme-dark {
 	/* main accent color */
         --accent-color: #ffbcff;
+	/* color for buttons */
+	--button-color: #ce98ce;
         /* color of accent color buttons on hover */
         --accent-color-2: #cba0cb;
         /* color of accent color buttons on click */
@@ -365,7 +367,7 @@
 		--brand-experiment-430
 	);
 
-	--brand-experiment: var(--accent-color);
+	--brand-experiment: var(--button-color);
 	--brand-experiment-30a: var(--mention-background);
 	--brand-experiment-360: var(--accent-color);
 	--brand-experiment-560: var(--accent-color-2);

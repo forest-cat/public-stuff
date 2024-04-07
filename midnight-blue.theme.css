@@ -1,0 +1,363 @@
+/**
+ * @name midnight
+ * @description A darkened discord theme.
+ * @author refact0r
+ * @version 1.4.0
+ * @source https://github.com/refact0r/midnight-discord
+ * @authorId 508863359777505290
+*/
+
+/* @import url('https://refact0r.github.io/midnight-discord/midnight.css'); */
+@import url('https://forest-cat.github.io/public-stuff/midnight-discord-theme.css');
+
+/* change colors here */
+/* a color picker should show up if you hover over the "hsl(x, y, z)" part */
+:root {
+	/* link color */
+	--link-color: hsl(190, 70%, 60%);
+	/* main accent color (mentions, folder icons, unread indicators) */
+	--accent-color: hsl(190, 60%, 50%);
+	/* darker accent color (background of any accent items with text) */
+	--accent-background: hsl(190, 60%, 40%);
+	/* even darker accent color (background of accent buttons when hover) */
+	--accent-background-2: hsl(190, 60%, 30%);
+	/* even darker accent color (background of accent buttons when clicked) */
+	--accent-background-3: hsl(190, 60%, 20%);
+	/* background of mention text and messages that mention you */
+	--mention-modifier: hsla(190, 60%, 50%, 0.1);
+	/* background of messages that mention you on hover */
+	--mention-hover-modifier: hsla(190, 60%, 50%, 0.05);
+	/* bright text for colored buttons */
+	--bright-text: hsl(220, 40%, 90%);
+	/* header text for headers and certain text */
+	--header-text: hsl(220, 30%, 70%);
+	/* main text color (messages, titles, unread text/indicators) */
+	--primary-text: hsl(220, 15%, 60%);
+	/* secondary text color (channels, descriptions, buttons) */
+	--secondary-text: hsl(220, 15%, 40%);
+	/* muted text color (input box placeholders, muted channels, message times) */
+	--muted-text: hsl(220, 15%, 24%);
+	/* background of muted colored buttons on hover */
+	--muted-background-hover: hsl(220, 15%, 20%);
+	/* background of muted colored buttons on click */
+	--muted-background-active: hsl(220, 15%, 16%);
+	/* background of pretty much everything not using primary background */
+	--secondary-background: hsl(228, 17%, 6%);
+	/* main chat/channel list/member list background */
+	--primary-background: hsl(228, 17%, 7%);
+	/* overlay background on stuff when hovered over */
+	--hover-modifier: hsl(230, 20%, 40%, 0.1);
+	/* overlay background on stuff when clicked or selected */
+	--active-modifier: hsl(220, 20%, 40%, 0.2);
+	/* overlay background on messages when hovered over */
+	--message-hover-modifier: hsl(220, 0%, 0%, 0.1);
+	/* radius of round corners */
+	--roundness: 16px;
+}
+
+/* Slide Effect on selected User in Voice Channel */
+.voiceUser__629a5.clickable_a2c5ad.userSmall__75fbe {
+    transition: 0.5s;
+}
+.voiceUser__629a5.selected__80fc0.clickable_a2c5ad.userSmall__75fbe {
+    transform: translate(4px, 0px);
+    transition: 0.15s;
+}
+/* effect when hovering over the user */
+.voiceUser__629a5:hover {
+    transform: translate(4px, 0px);
+    transition: 0.05s;
+}
+
+
+
+
+/* Hover text glowing on channel list */
+.linkTop_c8969d {
+    transition: 0.5s;
+}
+.linkTop_c8969d:hover {
+	text-shadow: 0 0 3px var(--accent-color);
+	transform: translate(4px, 0px);
+	transition: 0.15s;
+}
+
+
+
+/* user in voice channel when speaking */
+/* left round avatars in list */
+.userAvatar_f45224.avatar_a56eee.avatarSmall__85dc8 {
+    transition: 0.5s;
+}
+.userAvatar_f45224.avatar_a56eee.avatarSmall__85dc8.avatarSpeaking_f239de {
+    box-shadow: 0 0 20px var(--accent-color);
+	box-shadow: inset 0 0 0 2px var(--accent-color), inset 0 0 0 3px hsl(228, 17%, 6%), 0 0 20px var(--accent-color);
+	transition: 0.15s;
+}
+
+/* Trying for transition delay on square avatars border */
+.avatarStack__6604a{
+	transition: 0.3s;
+}
+
+/* Corner left bottom speaking cicle */
+.avatarSpeaking__747a1 {
+    box-shadow: inset 0 0 0 2px var(--accent-color),inset 0 0 0 3px hsl(228, 17%, 6%), 0 0 10px var(--accent-color);
+	transition: 0.3s;
+}
+
+/* speaking cicle in private calls */
+.border_e782de.speaking_b20122 {
+    box-shadow: inset 0 0 0 2px var(--accent-color),inset 0 0 0 3px var(--background-floating)
+}
+
+/* when voice channel selected, square avatars */
+.border_d9a17b {
+	transition: 0.3s;
+}
+.border_d9a17b.speaking_c28527 {
+	box-shadow: inset 0 0 0 2px rgb(70, 59, 165),inset 0 0 0 3px hsl(0,0%,0%);
+	box-shadow: inset 0 0 0 2px var(--accent-color),inset 0 0 0 3px hsl(228, 17%, 6%), 0 0 20px var(--accent-color);
+	transition: 0.3s;
+}
+/* background of users which are in a voice channel while voice channel is selected */
+.background__3baa0 {
+    background-color: hsl(240, 14%, 4%) !important;
+}
+
+/* top right small round avatars */
+.avatarSpeaking_c95053 {
+    box-shadow: inset 0 0 0 2px var(--accent-color),inset 0 0 0 3px var(--background-secondary)
+}
+
+
+/* Channels */
+.name__4eb92 {
+    color: hsl(266, 25%, 70%);
+	/* text-shadow: 0 0 3px hsl(266, 25%, 70%); */
+	transition: 0.5s;
+}
+.name__4eb92:hover {
+	color: hsl(0, 0%, 100%);
+	text-shadow: 0 0 5px var(--accent-color);
+	/* transform: translate(4px, 0px); */
+	transition: 0.15s;
+}
+/* Channel slide in while selected */
+.containerDefault_ae2ea4 {
+    transition: 0.5s;
+}
+.selected__11b62 {
+    transform: translate(4px, 0px);
+    transition: 0.15s;
+}
+
+/* :root {
+	text-shadow: 0 0 1px hsl(266, 25%, 70%);
+} */
+
+/* Discord Logo top left */
+.homeIcon-r0w4ny {
+	width: 35px;
+	height: 25px;
+}
+
+/* Slide Effekt on Folders and Servers (left) */
+.wrapper_ed1dea {
+
+	transition: 0.5s;
+}
+.listItem_fa7b36 {
+	transition: 0.5s;
+}
+
+/* whole non collapsed folder slide effect */
+.wrapper_ed1dea:hover {
+	transform: translate(2px, 0px);
+	transition: 0.15s;
+}
+
+/* all single list items */
+.listItem_fa7b36:hover:hover {
+	transform: translate(2px, 0px);
+	transition: 0.15s;
+}
+
+/* Excluding the home discord logo (top left) from the animation */
+.tutorialContainer__890ea .listItem_fa7b36 {
+	transition: 0.5s;
+}
+.tutorialContainer__890ea .listItem_fa7b36:hover {
+	transition: 0.15s;
+	transform: none;
+}
+
+
+/* Slide Effect on Folders and Guilds */
+.wrapper__9916c:hover {
+    transform: translate(2px, 0px);
+    transition: 0.15s;
+}
+.wrapper__9916c {
+    transition: 0.5s;
+}
+/* Exclude Discord Logo on the top left from slide effect */
+div.tutorialContainer_b06ae6 > div > div.listItemWrapper__3d465 > div {
+	transform: none !important;
+}
+/* Sliding effect for the memberlist (right) */
+.memberInner__4dac6 {
+	transition: 0.5s;
+}
+.memberInner__4dac6:hover {
+	transform: translate(4px, 0px) !important;
+	transition: 0.15s;
+}
+/* Sliding effect for the dm list (left) */
+.container__3792d {
+	transition: 0.5s;
+}
+.container__3792d:hover {
+	transform: translate(4px, 0px) !important;
+	transition: 0.15s;
+}
+/* Sliding effect for friend list */
+.peopleListItem_dab480 {
+    transition: 0.5s;
+}
+.peopleListItem_dab480:hover {
+	transform: translate(4px, 0px) !important;
+	transition: 0.15s;
+}
+
+
+
+
+
+
+/*VC Connection quality bars*/
+.rtcConnectionQualityFine__471b6 .ping__47992 .pingForeground_ac78df {
+    color: var(--accent-color);
+}
+.rtcConnectionQualityFine__471b6 .ping__47992 .pingForeground_ac78df {
+    color: var(--accent-color);
+}
+.rtcConnectionQualityFine__471b6 .ping__47992 .pingForeground_ac78df {
+    color: var(--accent-color);
+}
+
+
+/*streaming, cam, activity buttons left bottom*/
+.buttonActive_ae686f {
+    background-color: var(--accent-color) !important;
+}
+
+/* Add friend button */
+.item_e4ca95.addFriend__4c0a2.item__48dda.themed_b957e8 {
+    background-color: var(--accent-color) !important;
+    color: #ffffff !important;
+}
+
+/*Voice Connected Text bottom left*/
+#app-mount > div.appAsidePanelWrapper__714a6 > div.notAppAsidePanel__9d124 > div.app_b1f720 > div > div.layers__1c917.layers_a23c37 > div > div > div > div > div > section > div.wrapper__0ed4a > div > div.flex_f5fbb7.horizontal__992f6.justifyStart__42744.alignCenter__84269.noWrap__5c413.connection__5bb32 > div.inner_ab95dc > div > div > div > button > div {
+    color: var(--accent-color);
+}
+
+
+/* Sliding effect in settings menu */
+.side_b4b3f6 .item__48dda.themed_b957e8 {
+	transition: 0.5s;
+}
+
+.side_b4b3f6 .item__48dda.themed_b957e8:hover {
+	transform: translate(4px, 0px) !important;
+	transition: 0.15s;
+}
+
+/* Mentioned left colored bar fix */
+.mentioned__58017::before {
+    background-color: var(--accent-color);
+}
+
+/* Bar before unread messages */
+.divider__01aed.isUnread_de09f5 {
+    border-color: var(--accent-color);
+}
+.isUnread_de09f5 > .unreadPill__1b4fa.endCap__95d53 {
+    background-color: var(--accent-color);
+}
+.isUnread_de09f5 > .unreadPill__1b4fa.endCap__95d53 > .unreadPillCap__44e20 > .unreadPillCapStroke__89d64 {
+        color: var(--accent-color);
+    fill: var(--accent-color);
+}
+.isUnread_de09f5 > .content__7191e {
+    color: var(--accent-color);
+}
+
+/* add server and discover servers buttons left icons */
+.circleIconButton__05cf2 {
+    color: var(--accent-color);
+}
+
+/* add server and discover servers buttons left when hovering */
+.circleIconButton__05cf2.selected_aded59 {
+    background-color: var(--accent-color);
+}
+
+/* For new message divider */
+/* Text date mark without unread */
+.content_d67847 {
+    color: var(--text-muted);
+}
+
+/* Text date mark with unread */
+.isUnread__6f880 .content_d67847 {
+    color: var(--accent-color);
+}
+
+/* friend top bar in dark */
+.theme-dark .themed_b152d4 {
+    background-color: rgb(13, 14, 18);
+}
+
+/* forum background for forums */
+.container_b92032 {
+    background-color: rgb(13, 14, 18);
+}
+
+/* Interested in Event Button color */
+.joinButton_e760b6 {
+    background-color: var(--accent-color)!important;
+}
+
+/* Playing border around sounds in soundboard */
+.playing_e9d96b {
+    border-color: var(--accent-color) !important;
+    box-shadow: inset 0 0 0 1px var(--accent-color), inset 0 0 0 2px hsl(228, 17%, 6%), 0 0 10px var(--accent-color);
+}
+
+/* connection state icon in call bottom left */
+.ping__47992 {
+    --status-positive: var(--accent-color);
+}
+
+/* color fix for other random colors from green to blue */
+* {
+    --text-positive: var(--accent-color);
+    --status-positive: var(--accent-color);
+    --info-positive-foreground: var(--accent-color);
+    --info-positive-background: var(--accent-color);
+    --status-positive-background: var(-accent-color);
+    --status-positive-foreground: var(-accent-color);
+
+
+}
+
+/* background of users which are in a voice channel while voice channel is selected */
+.background__3b30f {
+    background-color: hsl(240, 14%, 4%) !important;
+}
+
+/* .username-u-ebrn.desaturateUserColors-1O-G89 {
+	font-size: 200%;
+} */

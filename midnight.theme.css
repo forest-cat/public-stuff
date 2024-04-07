@@ -304,12 +304,12 @@ div.tutorialContainer_b06ae6 > div > div.listItemWrapper__3d465 > div {
 
 /* add server and discover servers buttons left icons */
 .circleIconButton__05cf2 {
-    color: var(--accent-color);
+    color: var(--accent-background);
 }
 
 /* add server and discover servers buttons left when hovering */
 .circleIconButton__05cf2.selected_aded59 {
-    background-color: var(--accent-color);
+    background-color: var(--accent-background);
 }
 
 /* For new message divider */

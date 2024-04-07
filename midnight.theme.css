@@ -54,6 +54,9 @@
 	/* radius of round corners */
 	--roundness: 16px;
 }
+* {
+    --accent-color: #ffbcff;
+}
 
 /* Slide Effect on selected User in Voice Channel */
 .voiceUser__629a5.clickable_a2c5ad.userSmall__75fbe {
@@ -250,6 +253,9 @@ div.tutorialContainer_b06ae6 > div > div.listItemWrapper__3d465 > div {
 /*streaming, cam, activity buttons left bottom*/
 .buttonActive_ae686f {
     background-color: var(--accent-color) !important;
+}
+.buttonActive_ae686f {
+    color: var(--secondary-background) !important;
 }
 
 /* Add friend button */

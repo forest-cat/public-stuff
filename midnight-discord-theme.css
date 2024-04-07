@@ -195,9 +195,9 @@
 	/* scrollbar thumb color */
 	--scrollbar-color: hsl(220, 15%, 11%);
 	/* color of things on hover */
-	--hover-modifier: hsla(220, 15%, 20%, 0.1);
+	--hover-modifier: hsla(293, 16%, 20%, 0.1);
 	/* color of things when clicked */
-	--active-modifier: hsla(220, 15%, 20%, 0.2);
+	--active-modifier: hsla(293, 16%, 20%, 0.2);
 	/* color of things when selected */
 	--selected-modifier: hsla(220, 15%, 20%, 0.3);
 	/* amount of glow (set to 0 to disable) */
@@ -610,9 +610,9 @@
 	/* main chat/channel list/member list background */
 	--primary-background: hsl(220, 15%, 10%);
 	/* overlay background on stuff when hovered over */
-	--hover-modifier: hsl(230, 20%, 40%, 0.1);
+	--hover-modifier: hsla(293, 16%, 20%, 0.1);
 	/* overlay background on stuff when clicked or selected */
-	--active-modifier: hsl(220, 20%, 40%, 0.2);
+	--active-modifier: hsla(293, 16%, 20%, 0.2);
 	/* overlay background on messages when hovered over */
 	--message-hover-modifier: hsl(220, 0%, 0%, 0.1);
 	/* radius of round corners */

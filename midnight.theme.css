@@ -18,7 +18,7 @@
 	/* main accent color (mentions, folder icons, unread indicators) */
 	--accent-color: #ffbcff;
 	/* darker accent color (background of any accent items with text) */
-        --accent-background: #bb87bb;
+        --accent-background: #9e709e;
         /* even darker accent color (background of accent buttons when hover) */
         --accent-background-2: #6f3a6f;
         /* even darker accent color (background of accent buttons when clicked) */
@@ -54,6 +54,11 @@
 	/* radius of round corners */
 	--roundness: 16px;
 }
+/*Make buttons darker*/
+*{
+	--brand-experiment: var(--accent-background);
+}
+
 
 /* Slide Effect on selected User in Voice Channel */
 .voiceUser__629a5.clickable_a2c5ad.userSmall__75fbe {

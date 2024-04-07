@@ -361,6 +361,12 @@ div.tutorialContainer_b06ae6 > div > div.listItemWrapper__3d465 > div {
     background-color: hsl(240, 14%, 4%) !important;
 }
 
+/* Vertical bar before mentioned messages on the left */
+.mentioned_fa6fd2:before {
+    background-color: var(--accent-color-3);
+}
+
+
 /* .username-u-ebrn.desaturateUserColors-1O-G89 {
 	font-size: 200%;
 } */

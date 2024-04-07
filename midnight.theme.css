@@ -14,17 +14,17 @@
 /* a color picker should show up if you hover over the "hsl(x, y, z)" part */
 :root {
 	/* link color */
-	--link-color: hsl(190, 70%, 60%);
+	--link-color: #cba0cb;
 	/* main accent color (mentions, folder icons, unread indicators) */
-	--accent-color: hsl(190, 60%, 50%);
+	--accent-color: #ffbcff;
 	/* darker accent color (background of any accent items with text) */
-	--accent-background: hsl(190, 60%, 40%);
-	/* even darker accent color (background of accent buttons when hover) */
-	--accent-background-2: hsl(190, 60%, 30%);
-	/* even darker accent color (background of accent buttons when clicked) */
-	--accent-background-3: hsl(190, 60%, 20%);
+        --accent-background: #bb87bb;
+        /* even darker accent color (background of accent buttons when hover) */
+        --accent-background-2: #6f3a6f;
+        /* even darker accent color (background of accent buttons when clicked) */
+        --accent-background-3: #4f174f;
 	/* background of mention text and messages that mention you */
-	--mention-modifier: hsla(190, 60%, 50%, 0.1);
+	--mention-modifier: hsla(300, 36%, 70%, 0.1);
 	/* background of messages that mention you on hover */
 	--mention-hover-modifier: hsla(190, 60%, 50%, 0.05);
 	/* bright text for colored buttons */
@@ -53,9 +53,6 @@
 	--message-hover-modifier: hsl(220, 0%, 0%, 0.1);
 	/* radius of round corners */
 	--roundness: 16px;
-}
-* {
-    --accent-color: #ffbcff;
 }
 
 /* Slide Effect on selected User in Voice Channel */

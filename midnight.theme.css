@@ -54,9 +54,13 @@
 	/* radius of round corners */
 	--roundness: 16px;
 }
-/*Make buttons darker*/
-*{
+
+*{	
+	/*Make buttons darker*/
 	--brand-experiment: var(--accent-background);
+	/*Fix hovering over mentioned messages*/
+	--mention-modifier: hsla(300, 36%, 70%, 0.1) !important; 
+    	--mention-hover-modifier: hsla(300, 36%, 70%, 0.05) !important;
 }
 
 

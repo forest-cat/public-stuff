@@ -169,19 +169,19 @@
 /* base color variables */
 .theme-dark {
 	/* main accent color */
-	--accent-color: hsl(190, 60%, 50%);
-	/* color of accent color buttons on hover */
-	--accent-color-2: hsl(190, 60%, 55%);
-	/* color of accent color buttons on click */
-	--accent-color-3: hsl(190, 60%, 40%);
+        --accent-color: #ffbcff;
+        /* color of accent color buttons on hover */
+        --accent-color-2: #cba0cb;
+        /* color of accent color buttons on click */
+        --accent-color-3: #a063a0;
 	/* link color */
-	--link-color: hsl(190, 90%, 50%);
+        --link-color: var(--accent-color-2);    
 	/* user mention background */
-	--mention-background: hsl(190, 60%, 50%, 0.3);
+	--mention-background: #bb87bba2;
 	/* background of messages that mention you */
-	--mentioned-background: hsla(190, 60%, 50%, 0.1);
+	--mentioned-background: #bb87bb57;
 	/* background of messages that mention you on hover */
-	--mentioned-hover-background: hsla(190, 60%, 50%, 0.08);
+	--mentioned-hover-background: #bb87bb2c;
 	/* main text color (messages, titles, unread text/indicators) */
 	--primary-text: hsl(220, 15%, 60%);
 	/* secondary text color (channels, descriptions, buttons) */
@@ -578,19 +578,19 @@
 
 :root {
 	/* link color */
-	--link-color: hsl(190, 70%, 60%);
+	--link-color: #cba0cb;
 	/* main accent color (mentions, folder icons, unread indicators) */
-	--accent-color: hsl(190, 60%, 50%);
-	/* darker accent color (background of any accent items with text) */
-	--accent-background: hsl(190, 60%, 40%);
-	/* even darker accent color (background of accent buttons when hover) */
-	--accent-background-2: hsl(190, 60%, 30%);
-	/* even darker accent color (background of accent buttons when clicked) */
-	--accent-background-3: hsl(190, 60%, 20%);
+	--accent-color: #ffbcff;
+        /* darker accent color (background of any accent items with text) */
+        --accent-background: #bb87bb;
+        /* even darker accent color (background of accent buttons when hover) */
+        --accent-background-2: #6f3a6f;
+        /* even darker accent color (background of accent buttons when clicked) */
+        --accent-background-3: #4f174f;
 	/* background of mention text and messages that mention you */
-	--mention-modifier: hsla(190, 60%, 50%, 0.1);
+	--mention-modifier: hsla(300, 36%, 70%, 0.1);
 	/* background of messages that mention you on hover */
-	--mention-hover-modifier: hsla(190, 60%, 50%, 0.05);
+	--mention-hover-modifier: hsla(300, 36%, 70%, 0.05);
 	/* bright text for colored buttons */
 	--bright-text: hsl(220, 40%, 90%);
 	/* header text for headers and certain text */

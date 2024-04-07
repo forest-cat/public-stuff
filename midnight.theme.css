@@ -55,38 +55,44 @@
 	--roundness: 16px;
 }
 
-/* voice channel user name when clicked on */
-
-
-.listDefault__205d0 .clickable__137bc.selected__471ca .content_b60865 {
-	text-shadow: 0 0 5px hsl(0, 0%, 100%);
+/* Slide Effect on selected User in Voice Channel */
+.voiceUser__629a5.clickable_a2c5ad.userSmall__75fbe {
+    transition: 0.5s;
+}
+.voiceUser__629a5.selected__80fc0.clickable_a2c5ad.userSmall__75fbe {
+    transform: translate(4px, 0px);
+    transition: 0.15s;
+}
+/* effect when hovering over the user */
+.voiceUser__629a5:hover {
+    transform: translate(4px, 0px);
+    transition: 0.05s;
 }
 
 
 
 
-/* Hover text glowing */
-
-.content_b60865 {
-	transition: 0.5s;
+/* Hover text glowing on channel list */
+.linkTop_c8969d {
+    transition: 0.5s;
 }
-
-.content_b60865:hover {
+.linkTop_c8969d:hover {
 	text-shadow: 0 0 3px var(--accent-color);
 	transform: translate(4px, 0px);
 	transition: 0.15s;
 }
 
+
+
 /* user in voice channel when speaking */
 /* left round avatars in list */
-.userAvatar_c4f005.avatar_a56eee.avatarSmall__7dc81 {
-	transition: 0.3s;
+.userAvatar_f45224.avatar_a56eee.avatarSmall__85dc8 {
+    transition: 0.5s;
 }
-
-.userAvatar_c4f005.avatar_a56eee.avatarSmall__7dc81.avatarSpeaking_c95053 {
-	box-shadow: 0 0 20px var(--accent-color);
+.userAvatar_f45224.avatar_a56eee.avatarSmall__85dc8.avatarSpeaking_f239de {
+    box-shadow: 0 0 20px var(--accent-color);
 	box-shadow: inset 0 0 0 2px var(--accent-color), inset 0 0 0 3px hsl(228, 17%, 6%), 0 0 20px var(--accent-color);
-	transition: 0.3s;
+	transition: 0.15s;
 }
 
 /* Trying for transition delay on square avatars border */
@@ -95,13 +101,13 @@
 }
 
 /* Corner left bottom speaking cicle */
-.avatarSpeaking__61fb1 {
-	box-shadow: inset 0 0 0 2px var(--accent-color),inset 0 0 0 3px hsl(228, 17%, 6%), 0 0 10px var(--accent-color);
+.avatarSpeaking__747a1 {
+    box-shadow: inset 0 0 0 2px var(--accent-color),inset 0 0 0 3px hsl(228, 17%, 6%), 0 0 10px var(--accent-color);
 	transition: 0.3s;
 }
 
 /* speaking cicle in private calls */
-.border_e782de.speaking__1dd69 {
+.border_e782de.speaking_b20122 {
     box-shadow: inset 0 0 0 2px var(--accent-color),inset 0 0 0 3px var(--background-floating)
 }
 
@@ -109,10 +115,14 @@
 .border_d9a17b {
 	transition: 0.3s;
 }
-.border_d9a17b.speaking__9b95a {
+.border_d9a17b.speaking_c28527 {
 	box-shadow: inset 0 0 0 2px rgb(70, 59, 165),inset 0 0 0 3px hsl(0,0%,0%);
 	box-shadow: inset 0 0 0 2px var(--accent-color),inset 0 0 0 3px hsl(228, 17%, 6%), 0 0 20px var(--accent-color);
 	transition: 0.3s;
+}
+/* background of users which are in a voice channel while voice channel is selected */
+.background__3baa0 {
+    background-color: hsl(240, 14%, 4%) !important;
 }
 
 /* top right small round avatars */
@@ -120,28 +130,26 @@
     box-shadow: inset 0 0 0 2px var(--accent-color),inset 0 0 0 3px var(--background-secondary)
 }
 
-/* channels */
 
-.name__8d1ec {
-	color: hsl(266, 25%, 70%);
+/* Channels */
+.name__4eb92 {
+    color: hsl(266, 25%, 70%);
 	/* text-shadow: 0 0 3px hsl(266, 25%, 70%); */
 	transition: 0.5s;
 }
-
-.name__8d1ec:hover {
+.name__4eb92:hover {
 	color: hsl(0, 0%, 100%);
 	text-shadow: 0 0 5px var(--accent-color);
-	transform: translate(4px, 0px);
+	/* transform: translate(4px, 0px); */
 	transition: 0.15s;
 }
-
-
-
-.selected-2TbFuo {
-	color: crimson;
-	text-shadow: 0 0 3px var(--accent-color) !important;
-	/* box-shadow: 0px 0px 40px 20px rgba(208, 255, 0, 0.288); */
-	/* background-image: linear-gradient(to right, rgb(0, 0, 0) , rgba(208, 255, 0, 0.288)); */
+/* Channel slide in while selected */
+.containerDefault_ae2ea4 {
+    transition: 0.5s;
+}
+.selected__11b62 {
+    transform: translate(4px, 0px);
+    transition: 0.15s;
 }
 
 /* :root {
@@ -184,33 +192,48 @@
 	transform: none;
 }
 
-/* Sliding effect for the memberlist (right) */
-.memberInner_a32223 {
-	transition: 0.5s;
-}
-.memberInner_a32223:hover {
-	transform: translate(4px, 0px) !important;
-	transition: 0.15s;
-}
 
-/* Sliding effect for the dm list (left) */
-.container__8759a {
-	transition: 0.5s;
+/* Slide Effect on Folders and Guilds */
+.wrapper__9916c:hover {
+    transform: translate(2px, 0px);
+    transition: 0.15s;
 }
-.container__8759a:hover {
-	transform: translate(4px, 0px) !important;
-	transition: 0.15s;
-}
-
-/* Sliding effect for friend list */
-
-.peopleListItem_d14722 {
+.wrapper__9916c {
     transition: 0.5s;
 }
-.peopleListItem_d14722:hover {
+/* Exclude Discord Logo on the top left from slide effect */
+div.tutorialContainer_b06ae6 > div > div.listItemWrapper__3d465 > div {
+	transform: none !important;
+}
+/* Sliding effect for the memberlist (right) */
+.memberInner__4dac6 {
+	transition: 0.5s;
+}
+.memberInner__4dac6:hover {
 	transform: translate(4px, 0px) !important;
 	transition: 0.15s;
 }
+/* Sliding effect for the dm list (left) */
+.container__3792d {
+	transition: 0.5s;
+}
+.container__3792d:hover {
+	transform: translate(4px, 0px) !important;
+	transition: 0.15s;
+}
+/* Sliding effect for friend list */
+.peopleListItem_dab480 {
+    transition: 0.5s;
+}
+.peopleListItem_dab480:hover {
+	transform: translate(4px, 0px) !important;
+	transition: 0.15s;
+}
+
+
+
+
+
 
 /*VC Connection quality bars*/
 .rtcConnectionQualityFine__471b6 .ping__47992 .pingForeground_ac78df {
@@ -225,13 +248,14 @@
 
 
 /*streaming, cam, activity buttons left bottom*/
-.buttonActive__407a7 {
+.buttonActive_ae686f {
     background-color: var(--accent-color) !important;
 }
 
 /* Add friend button */
-#app-mount > div.appAsidePanelWrapper__714a6 > div.notAppAsidePanel__9d124 > div.app_b1f720 > div > div.layers__1c917.layers_a23c37 > div > div > div > div > main > section > div > div.children__32014 > div.tabBar__73938.topPill__0cdf1 > div.item_e4ca95.addFriend__80542.item__48dda.themed_b957e8 {
-    background-color: hsl(190, 100%, 29%);
+.item_e4ca95.addFriend__4c0a2.item__48dda.themed_b957e8 {
+    background-color: var(--accent-color) !important;
+    color: #ffffff !important;
 }
 
 /*Voice Connected Text bottom left*/
@@ -239,8 +263,8 @@
     color: var(--accent-color);
 }
 
-/* Sliding effect in settings menu */
 
+/* Sliding effect in settings menu */
 .side_b4b3f6 .item__48dda.themed_b957e8 {
 	transition: 0.5s;
 }
@@ -256,28 +280,29 @@
 }
 
 /* Bar before unread messages */
-.divider__8cf56.isUnread__6f880 {
+.divider__01aed.isUnread_de09f5 {
     border-color: var(--accent-color);
 }
-
-.isUnread__6f880 > .unreadPill__715fc.endCap__95d53 {
+.isUnread_de09f5 > .unreadPill__1b4fa.endCap__95d53 {
     background-color: var(--accent-color);
 }
-
-.isUnread__6f880 > .unreadPill__715fc.endCap__95d53 > .unreadPillCap__96b8d > .unreadPillCapStroke__12c0b {
-    color: var(--accent-color);
+.isUnread_de09f5 > .unreadPill__1b4fa.endCap__95d53 > .unreadPillCap__44e20 > .unreadPillCapStroke__89d64 {
+        color: var(--accent-color);
     fill: var(--accent-color);
+}
+.isUnread_de09f5 > .content__7191e {
+    color: var(--accent-color);
 }
 
 /* add server and discover servers buttons left icons */
-.circleIconButton_d8df29 {
+.circleIconButton__05cf2 {
     color: var(--accent-color);
 }
 
 /* add server and discover servers buttons left when hovering */
-.circleIconButton_d8df29.selected__5250e {
+.circleIconButton__05cf2.selected_aded59 {
     background-color: var(--accent-color);
-} 
+}
 
 /* For new message divider */
 /* Text date mark without unread */
@@ -296,7 +321,7 @@
 }
 
 /* forum background for forums */
-.container_b181b6 {
+.container_b92032 {
     background-color: rgb(13, 14, 18);
 }
 
@@ -306,9 +331,9 @@
 }
 
 /* Playing border around sounds in soundboard */
-.playing_ca65b9 {
+.playing_e9d96b {
     border-color: var(--accent-color) !important;
-	box-shadow: inset 0 0 0 1px var(--accent-color), inset 0 0 0 2px hsl(228, 17%, 6%), 0 0 10px var(--accent-color);
+    box-shadow: inset 0 0 0 1px var(--accent-color), inset 0 0 0 2px hsl(228, 17%, 6%), 0 0 10px var(--accent-color);
 }
 
 /* connection state icon in call bottom left */

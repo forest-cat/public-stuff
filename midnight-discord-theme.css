@@ -371,6 +371,7 @@
 	--brand-experiment-30a: var(--mention-background);
 	--brand-experiment-360: var(--accent-color);
 	--brand-experiment-560: var(--accent-color-2);
+	--brand-experiment-530: var(--accent-color-2);
 	--brand-experiment-600: var(--accent-color-3);
 }
 

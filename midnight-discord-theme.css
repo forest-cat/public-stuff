@@ -373,6 +373,7 @@
 	--brand-experiment-560: var(--accent-color-2);
 	--brand-experiment-530: var(--accent-color-2);
 	--brand-experiment-600: var(--accent-color-3);
+	--brand-530: var(--accent-color-2);
 }
 
 /* fix things that don't use color vars */
